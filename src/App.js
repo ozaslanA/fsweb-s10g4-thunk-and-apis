@@ -12,7 +12,7 @@ export default function App() {
   const current = useSelector((store) => store.current);
   const favs = useSelector((store) => store.favs);
   const dispatch = useDispatch();
-  const notify = () => toast("Seçtiğiniz şaka favorilere eklenmiştir!");
+  const notify = () => toast("Seçimin Favorilerde Bakmayı Unutma :) ");
 
   function handleClick() {
     dispatch({ type: FETCH_LOADING, payload: true });
